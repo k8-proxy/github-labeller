@@ -7,7 +7,7 @@ The label synchronisation utilises a CI pipeline (label_maker.yml) that runs eve
 1. Install go, if you don't have it installed. Click [here] for directions.
 2. Clone the repo
 ```sh
-$ GO111MODULE=off go get github.com/k8-proxy/k8-data-visualization/label_maker
+$ GO111MODULE=off go get github.com/k8-proxy/labels
 ```
 3. Edit the file labels.json with the labels you want synchronised. eg
 ```sh
