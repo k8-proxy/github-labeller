@@ -1,6 +1,6 @@
 name: Label Maker
 
-on[push]
+on: [push]
 
 jobs:
 
