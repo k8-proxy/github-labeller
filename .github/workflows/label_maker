@@ -1,4 +1,4 @@
-name: Label Maker
+name: Label Makers
 
 on:
   push:
