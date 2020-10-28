@@ -1,7 +1,7 @@
 # Label Synchronisation accross all repositores
 
 ### Usage (Automatic)
-The label maker and synchronisation utilises a CI pipeline (go.yml) that runs every hour to look out for any new repositories and apply the labels.
+The label maker and synchronisation utilises a CI pipeline (go.yml) that runs every day at 06:00 UTC time look out for any new repositories and apply the labels. You can use [crontab] to come up with the desired cron job to run the timer.
 
 ### Usage (Manual)
 1. Install go, if you don't have it installed. Click [here] for directions.
@@ -76,6 +76,8 @@ where "mytoken" is your personal github token, "ORGANISATION" is the organisatio
 |  Use case                      |   |
 
 [here]: <https://golang.org/doc/install>
+
+[crontab]: <https://crontab.guru/>
 
 [Github-labeller]:<https://github.com/displague/github-labeller>
 
