@@ -1,7 +1,7 @@
 # Label Synchronisation accross all repositores
 
 ### Usage (Automatic)
-The label maker and synchronisation utilises a CI pipeline (go.yml) that runs every day at 06:00 BST time and looks out for any new repositories and apply the labels. You can use [crontab] to come up with the desired cron job time to run the workflow.
+The label maker and synchronisation utilises a CI pipeline (go.yml) that runs every day at 07:00 BST time and looks out for any new repositories and apply the labels. You can use [crontab] to come up with the desired cron job time to run the workflow.
 
 ### Usage (Manual)
 1. Install go, if you don't have it installed. Click [here] for directions.
