@@ -1,0 +1,144 @@
+- name: "bug"
+  color: d73a4a
+  description": ""
+
+- name: "documentation"
+  color: 0075ca
+  description": ""
+
+- name: "duplication"
+  color: cfd3d7
+  description": ""
+
+- name: "enhancement"
+  color: a2eeef
+  description:
+
+- name: "good first issue"
+  color: 7057ff
+  description": ""
+
+- name: "help wanted"
+  color: 003a31
+  description": ""
+
+- name: "invalid"
+  color: e4e669
+  description": ""
+
+- name: "question"
+  color: d876e3
+  description": ""
+
+- name: "wontfix"
+  color: ffffff
+  description: ""
+
+
+
+
+
+
+- name: "A1 Injection"
+  color: 30f43e
+  description": ""
+
+- name: "A2 Broken Authentication"
+  color: ff99ff
+  description: ""
+
+- name: "A6 Sensitive Data Exposure"
+  color: 9999ff
+  description": ""
+
+- name: "A11 DoS"
+  color: 99ffff
+  description": ""
+
+- name: "behavior"
+  color: ccff99
+  description": ""
+
+- name: "ci"
+  color: ffff99
+  description": ""
+
+- name: "jupyter_notebook"
+  color: 009933
+  description: ""
+
+- name: "New Feature"
+  color: 009999
+  description": ""
+
+- name: "P0"
+  color: 994d00
+  description": ""
+
+- name: "P1"
+  color: ffe0b3
+  description": ""
+
+- name: "P2"
+  color: ff9900
+  description": ""
+
+- name: "P3"
+  color: ff0066
+  description: ""
+
+- name: "Research"
+  color: b3d9ff
+  description": ""
+
+- name: "Risk - Accepted"
+  color: d4c5f9
+  description": ""
+
+- name: "Risk - Fxed"
+  color: d4c5f9
+  description": ""
+
+- name: "Risk - High"
+  color: d4c5f9
+  description": ""
+
+- name: "Risk - Low"
+  color: d4c5f9
+  description": ""
+
+- name: "Risk - Medium"
+  color: d4c5f9
+  description: ""
+
+- name: "Risk - To accept"
+  color: d4c5f9
+  description": ""
+
+- name: "Risk - To fix"
+  color: d4c5f9
+  description": ""
+
+- name: "Security"
+  color: 1d76db
+  description": "Questions, concerns, or suggestions for improving the security of the app."
+
+- name: "QA Task"
+  color: c2e0c6
+  description": ""
+
+- name: "Merge conflict"
+  color: fbca04
+  description": "Indicates a merge conflict."
+
+- name: "Test needed"
+  color: c2e0c6
+  description: "Work has stopped. There may be one or more blockers or needs more information."
+
+- name: "Use case"
+  color: ff0066
+  description": ""
+
+- name: "Quality"
+  color: c2e0c6
+  description": ""

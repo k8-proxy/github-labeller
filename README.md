@@ -28,6 +28,23 @@ $ GITHUB_TOKEN=mytoken github-labeller ORGANISATION
 ```
 where "mytoken" is your personal github token, "ORGANISATION" is the organisation to which the repos belong.
 
+
+# Label Synchronisation for a single repository
+
+1. You'll need Node.js 12+ installed to run GitHub Label Sync. You'll also need a GitHub access token ready so that the the tool will have access to your repositories.
+
+```sh
+$ npm install -g github-label-sync
+```
+
+2. Download labels.yml into the working directory 
+
+```sh
+$ github-label-sync --access-token xxxxxx --labels labels.yml myname/myrepo
+```
+
+Note: Running this will delete all labels not in the yml file.
+
 ### Default Labels
 | Label                         | Description                                   |
 | ------                        | ------                                        |
@@ -81,8 +98,11 @@ where "mytoken" is your personal github token, "ORGANISATION" is the organisatio
 
 [Github-labeller]:<https://github.com/displague/github-labeller>
 
+[GitHub Label Sync]:<https://github.com/Financial-Times/github-label-sync>
 
 
 ### Reference
 
 [Github-labeller]
+
+[GitHub Label Sync]
