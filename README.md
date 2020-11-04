@@ -31,7 +31,7 @@ where "mytoken" is your personal github token, "ORGANISATION" is the organisatio
 
 # Label Synchronisation for a single repository
 
-1. You'll need Node.js 12+ installed to run GitHub Label Sync. You'll also need a GitHub access token ready so that the the tool will have access to your repositories.
+1. You'll need Node.js 12+ installed to run GitHub Label Sync. 
 
 ```sh
 $ npm install -g github-label-sync
